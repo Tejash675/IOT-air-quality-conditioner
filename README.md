@@ -22,3 +22,5 @@ Using *Tinkercad*, we can simulate this circuit virtually. Tinkercad provides a 
 The Arduino code for this project reads the analog values from the gas sensor and prints them to the *serial monitor*, which helps users understand the air quality in numerical terms. These readings can be further calibrated to indicate specific pollutant levels or thresholds. In a real-world scenario, this data could be sent to the cloud using Wi-Fi modules like ESP8266 or displayed on an LCD screen. Alerts could also be generated if the air quality drops below a certain standard.
 
 In summary, this IoT Air Quality Monitor project provides a basic yet functional model for monitoring environmental pollution using Arduino and a gas sensor. The use of Tinkercad as a simulation tool enhances the learning process and allows for quick testing without any hardware investment. This project can serve as a foundation for more advanced IoT-based environmental monitoring systems.
+
+![Image](https://github.com/user-attachments/assets/035760b2-c3a6-49c9-890b-80507575fb74)

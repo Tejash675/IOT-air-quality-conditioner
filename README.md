@@ -10,6 +10,7 @@ DOMAIN : INTERNET OF THINGS
 DURATION : 4 WEEKS
 
 MENTOR : NEELA SANTOSH KUMAR
+
 The *IoT Air Quality Monitor* project is a simple yet effective system designed to detect and monitor the air quality in a specific environment using an Arduino Uno and a gas sensor. The core objective of this project is to measure the level of pollutants or harmful gases in the air and interpret this data using a microcontroller. This system is highly relevant in today’s context where air pollution is a growing concern in urban areas, and there is a need for real-time monitoring solutions. The project was built and simulated using *Tinkercad*, an online platform that allows users to design circuits and test Arduino codes without the need for physical hardware.
 
 In this project, the primary component used for sensing air quality is a *gas sensor* such as the MQ135 or MQ2. These sensors are capable of detecting gases like carbon monoxide (CO), ammonia (NH₃), nitrogen dioxide (NO₂), alcohol, benzene, and smoke. The sensor outputs an analog voltage that varies depending on the concentration of these gases in the environment. This analog signal is then read by the *Arduino Uno* through one of its analog input pins, typically *A0*.

@@ -1,0 +1,16 @@
+CODE FOR IOT AIR MONITOR IN TINKER CARD
+int airQualityPin = A0;  // Analog input pin connected to MQ135
+int airQualityValue = 0;
+
+void setup() {
+  Serial.begin(9600);    // Start serial communication
+  pinMode(airQualityPin, INPUT);
+}
+
+void loop() {
+  airQualityValue = analogRead(airQualityPin);  // Read analog value from sensor
+  Serial.print("Air Quality Value: ");
+  Serial.println(airQualityValue);              // Display on Serial Monitor
+  
+  delay(1000);  // Delay for 1 second
+}
